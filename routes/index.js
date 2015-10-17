@@ -3,11 +3,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Maxiblog' });
+  res.render('index', { title: 'Cordobes' });
 });
 /* GET post1 page. */
 router.get('/post1', function(req, res, next) {
-  res.render('post', { title: 'Maxiblog' });
+  res.render('post', { title: 'Cordobes' });
 });
 
 
