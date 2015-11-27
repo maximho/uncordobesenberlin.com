@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Cordobes' });
 });
 /* GET grafitti page. */
-router.get('/graffiti', function(req, res, next) {
-  res.render('graffiti', { title: 'Cordobes' });
+router.get('/habitaciones', function(req, res, next) {
+  res.render('habitaciones', { title: 'Cordobes' });
 });
 
 

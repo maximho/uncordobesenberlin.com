@@ -1,6 +1,7 @@
 html {
-  background-image: url("/img/arcoBranderburg.png");
-  background-size: 25%;
+  background-image: url("/img/casa_portada.jpg");
+  background-size: 100%;
+  background-position: center;
   font-family: monospace;
 }
 #content {
@@ -15,4 +16,12 @@ html {
   text-align: center;
   font-size: 40px;
   color: #00f;
+}
+#content h2 {
+  text-align: center;
+  font-size: 25px;
+}
+#content .fotoportada {
+  width: 250px;
+  height: 200px;
 }
